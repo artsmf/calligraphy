@@ -1,6 +1,6 @@
 // Font styles
 strong {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 del,
@@ -34,7 +34,7 @@ pre {
   padding: 16px;
   overflow: auto;
   background-color: $smoke;
-  font: 12px "Consolas", "Liberation Mono", "Menlo", "Courier", monospace;
+  font: 12px monospace;
   font-family: $font-code;
   font-size: 85%;
   line-height: 1.45;
@@ -75,7 +75,7 @@ code {
 }
 
 .sans {
-  font-family: "Open Sans", "Myriad Pro", "Myriad", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .mono,
@@ -101,7 +101,7 @@ q {
   content: "\201C";
   color: $accent;
   font-family: $font-header;
-  font-size: 35px;
+  font-size: 16px;
 }
 
 blockquote {

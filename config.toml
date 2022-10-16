@@ -1,5 +1,5 @@
 title = "Violette Belle Calligraphy and Art"
-baseURL = ""
+baseURL = "https://violettebelle.com"
 tags = ["calligraphy", "wedding calligraphy", "wedding illustration", "hand lettering", "pen and ink calligraphy"]
 languageCode = "en-US"
 config = "config.toml"
@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 [Params]
   tagline = "Beautiful calligraphy and bespoke ephemera that evoke emotional memories of life’s milestones."
   author = "Susannah Fisher"
-  description = "bespoke wedding and event calligraphy"
+  description = "Wedding calligrapher and artist for romantic couples. Violette Belle specializes in illustration and pointed pen calligraphy for engagement announcements, wedding invitations, maps, wedding crests, custom wax seal designs, vow books, and much more.  We make heirlooms to celebrate special occasions. Sign up to receive email updates, special offers and a physical sample of our work addressed to you in a feminine, modern calligraphy style."
   logoBig = "/images/vblogo.png"
   logoSmall = "/images/vb-favicon-2020.png"
   favicon = "vb-favicon-2020.ico"
