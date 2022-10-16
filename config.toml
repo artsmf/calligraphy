@@ -1,0 +1,66 @@
+title = "Violette Belle Calligraphy and Art"
+baseURL = ""
+tags = ["calligraphy", "wedding calligraphy", "wedding illustration", "hand lettering", "pen and ink calligraphy"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "violettebelle"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = ""
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+  tagline = "Beautiful calligraphy and bespoke ephemera that evoke emotional memories of life’s milestones."
+  author = "Susannah Fisher"
+  description = "bespoke wedding and event calligraphy"
+  logoBig = "/images/vblogo.png"
+  logoSmall = "/images/vb-favicon-2020.png"
+  favicon = "vb-favicon-2020.ico"
+  opengraphImage = "/images/vblogo.png"
+  email = "info@violettebelle.com"
+  googleTagManger = ""
+  customCSS = false
+
+  # Social media links in footer
+  twitter = ""
+  linkedin = ""
+  github = ""
+  facebook = ""
+
+  # Copyright and theme author credit in footer
+  copyright = true
+  credit = false
+
+  # Cache busting of static resources (additional set up required)
+  cacheBustCSS = false
+  cacheBustJS = false
+
+  # Code highlighting with highlight.js
+  highlightJS = true
+  highlightJSStyle = "" # For custom highlight.js styles, add your /path/to/styles/default.css
+  highlightJSScript = "" # For custom highlight.js languages config, add your /path/to/highlight.pack.js
+
+  # Choose either Formspree contact form or Basin contact form
+  ajaxFormspree = false
+  ajaxFormspreeGold = false
+  ajaxBasin = "https://usebasin.com/f/0eae7044d4c2"
+
+  # Lazy loading with lazysizes
+  lazyloading = true
+
+[[menu.main]]
+  name = "Work"
+  url  = "/#work"
+  weight = 1
+[[menu.main]]
+  name = "About"
+  url  = "/#about"
+  weight = 2
+[[menu.main]]
+  name = "Blog"
+  url  = "/#blog"
+  weight = 3
+[[menu.main]]
+  name = "Contact"
+  url  = "/#contact"
+  weight = 4
