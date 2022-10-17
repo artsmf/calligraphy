@@ -1,0 +1,20 @@
+<div class="col-md-4 mb-4">
+    <article class="card">
+        <div class="card-body">
+            {{ if .Params.Image }}
+        <a href="{{ .Permalink }}"><img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
+        </a>
+        {{ end }}
+        </div>
+        <!-- <div class="card-body px-0"> -->
+        <!-- {{ range .Params.Genres }}
+        <a href="{{ `genres/` | relLangURL }}{{ . | urlize | lower }}"
+            class="text-primary">{{ . | title | humanize }}</a>
+        {{ end }} -->
+        <!-- <br> -->
+        <!-- <a href="{{ .Permalink }}" class="h5 d-block my-3 project-title">{{ .Title | markdownify }}</a> -->
+        <!-- <p class="card-text">{{ .Summary }}</p>
+        <a href="{{ .Permalink }}" class="btn btn-outline-primary">read more</a> -->
+        <!-- </div> -->
+    </article>
+</div>

@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        {{ range .Params.Categories }}
+        <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
+          class="text-primary">{{ . | title | humanize }}</a>
+        {{ end }}
+        <h2>{{ .Title | markdownify }}</h2>
+        <div class="mb-3 post-meta">
+          {{ if not .Params.HideDate }}
+          <span>{{ .PublishDate.Format "02 January 2006" }}</span>
+          <br><span class="reading-time">Reading time: {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}</span>
+          {{ end }}
+        </div>
+        {{ if .Params.image }}
+        <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">
+        {{ end }}
+        <div class="content mb-5">
+          {{ .Content }}
+        </div>
+
+         <!-- pagination -->
+     <div class="prev-next">
+      <div class="col-6 prev">
+        {{ with .PrevInSection }}
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+      </div>
+      <div class="col-6 next">
+        {{ with .NextInSection }}
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+      </div>
+     </div> 
+
+        <!-- comments -->
+        {{ template "_internal/disqus.html" . }}
+
+        <!-- custom CODE ways to make art with me -->
+        <div class="make-art">
+          <div class="offers">
+            <h2>Make Art With Me</h2>
+            <p>
+              <ul>
+                <li>Sign up for my newsletter below.</li>
+                <li>Follow me on <a href="https://www.youtube.com/channel/UCpIZrghBZk-VmV6OZ6HMcfw" target="_blank">YouTube</a>.</li>
+                <!-- <li><a href="/patreon">Join me on Patreon</a> for monthly workshops, weekly tip videos, community, and more!</li> -->
+              </ul>
+            </p>
+        </div>
+      </div>
+    </div>
+
+    
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

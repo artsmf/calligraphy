@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<section class="section-sm">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        {{ range .Params.Genres }}
+        <a href="{{ `genres/` | relLangURL }}{{ . | urlize | lower }}"
+          class="text-primary">{{ . | title | humanize }}</a>
+        {{ end }}
+        
+        <h2 class="text-center">{{ .Title | markdownify }}</h2>
+        <div class="mb-3 post-meta">
+          {{ if not .Params.HideDate }}
+          {{ end }}
+        </div>
+        {{ if .Params.image }}
+        <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">
+        {{ end }}
+        <div class="content mb-5">
+          {{ .Content }}
+        </div>
+
+         <!-- pagination -->
+     <div class="prev-next">
+      <div class="col-6 prev">
+        {{ with .PrevInSection }}
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+      </div>
+      <div class="col-6 next">
+        {{ with .NextInSection }}
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+      </div>
+     </div> 
+
+       
+
+      </div>
+    </div>
+
+    
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,66 +1,189 @@
+######################## default configuration ####################
+baseURL = "https://violettebelle.com/"
+languageCode = "en-us"
 title = "Violette Belle Calligraphy and Art"
-baseURL = "https://violettebelle.com"
-tags = ["calligraphy", "wedding calligraphy", "wedding illustration", "hand lettering", "pen and ink calligraphy"]
-languageCode = "en-US"
-config = "config.toml"
-theme = "violettebelle"
-canonifyURLS = true
-googleAnalytics = ""
+theme = "liva-hugo"
+summaryLength = "10"
+paginate = 6
 disqusShortname = ""
-disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
-[Params]
-  tagline = "Beautiful calligraphy and bespoke ephemera that evoke emotional memories of life’s milestones."
-  author = "Susannah Fisher"
-  description = "Wedding calligrapher and artist for romantic couples. Violette Belle specializes in illustration and pointed pen calligraphy for engagement announcements, wedding invitations, maps, wedding crests, custom wax seal designs, vow books, and much more.  We make heirlooms to celebrate special occasions. Sign up to receive email updates, special offers and a physical sample of our work addressed to you in a feminine, modern calligraphy style."
-  logoBig = "/images/vblogo.png"
-  logoSmall = "/images/vb-favicon-2020.png"
-  favicon = "vb-favicon-2020.ico"
-  opengraphImage = "/images/vblogo.png"
-  email = "info@violettebelle.com"
-  googleTagManger = ""
-  customCSS = false
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 
-  # Social media links in footer
-  twitter = ""
-  linkedin = ""
-  github = ""
-  facebook = ""
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
 
-  # Copyright and theme author credit in footer
-  copyright = true
-  credit = false
+############################# Plugins ##############################
+[params.plugins]
 
-  # Cache busting of static resources (additional set up required)
-  cacheBustCSS = false
-  cacheBustJS = false
+# CSS Plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/venobox/venobox.css"
 
-  # Code highlighting with highlight.js
-  highlightJS = true
-  highlightJSStyle = "" # For custom highlight.js styles, add your /path/to/styles/default.css
-  highlightJSScript = "" # For custom highlight.js languages config, add your /path/to/highlight.pack.js
+# JS Plugins
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+URL = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+URL = "plugins/search/mark.js"
+[[params.plugins.js]]
+URL = "plugins/search/search.js"
 
-  # Choose either Formspree contact form or Basin contact form
-  ajaxFormspree = false
-  ajaxFormspreeGold = false
-  ajaxBasin = "https://usebasin.com/f/0eae7044d4c2"
 
-  # Lazy loading with lazysizes
-  lazyloading = true
+############################## navigation ###############################
+[menu]
+
+# main menu
+# Calligraphy
 
 [[menu.main]]
-  name = "Work"
-  url  = "/#work"
-  weight = 1
+identifier = "calligraphy"
+name = "Callligraphy"
+URL = "/calligraphy"
+weight = 1
+
 [[menu.main]]
-  name = "About"
-  url  = "/#about"
-  weight = 2
+name = "Envelope Calligraphy"
+parent = "calligraphy"
+URL = "calligraphy/envelope-calligraphy/"
+weight = 1
+
 [[menu.main]]
-  name = "Blog"
-  url  = "/#blog"
-  weight = 3
+name = "Day Of Stationery"
+parent = "calligraphy"
+URL = "calligraphy/day-of-stationery/"
+weight = 2
+
 [[menu.main]]
-  name = "Contact"
-  url  = "/#contact"
-  weight = 4
+name = "Wedding Suites"
+parent = "calligraphy"
+URL = "calligraphy/wedding-suite-calligraphy/"
+weight = 3
+
+# Calligraphy
+
+[[menu.main]]
+identifier = "illustration"
+name = "Illustration"
+URL = "/illustration"
+weight = 2
+
+[[menu.main]]
+name = "Wedding Crests"
+parent = "illustration"
+URL = "illustration/wedding-crests/"
+weight = 1
+
+[[menu.main]]
+name = "Wedding Maps"
+parent = "illustration"
+URL = "illustration/wedding-maps/"
+weight = 2
+
+[[menu.main]]
+name = "Bridal Portraits"
+parent = "illustration"
+URL = "illustration/bridal-portraits/"
+weight = 3
+
+# About
+
+[[menu.main]]
+name = "About"
+URL = "about/"
+weight = 50
+
+# footer menu
+
+[[menu.footer]]
+name = "Calligraphy"
+URL = "calligraphy/"
+weight = 20
+
+[[menu.footer]]
+name = "Illustration"
+URL = "illustration/"
+weight = 25
+
+[[menu.footer]]
+name = "About"
+URL = "about/"
+weight = 50
+
+#################### default parameters ################################
+[params]
+logo = ""
+home = "Home"
+# Meta data
+description = "Bespoke romantic wedding calligraphy and illustration by artist and calligrapher Susannah Fisher. "
+author = "Susannah Fisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# Contact Information
+mobile = ""
+email = "info@susannahfisher.art"
+location = ""
+# copyright
+copyright = "&copy; 2022 Susannah Fisher | All Rights Reserved <br> All artwork and images of artwork are the sole property of Susannah Fisher and may not be reproduced or sold for profit without written consent by the artist."
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+# search
+[params.search]
+enable = false
+
+############################ taxonomies ########################
+
+[taxonomies]
+  category = 'categories'
+  genre = 'genres' # custom
+  tag = 'tags'
+
+############################ news letter ########################
+[params.newsletter]
+enable = false
+title = "Join Our Newsletter"
+content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
+
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+
+############################# social site ########################
+[[params.social]]
+title = "pinterest"
+icon = "ti-pinterest" # themify icon : https://themify.me/themify-icons
+link = "https://pinterest.com/smfisherart"
+
+[[params.social]]
+title = "youtube"
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/channel/UCpIZrghBZk-VmV6OZ6HMcfw"
+
+############################# html used in markdown ########################
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
