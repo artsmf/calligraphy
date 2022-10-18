@@ -12,9 +12,10 @@ description: "this is meta description"
 # type
 type : "about"
 ---
+<center><h4>In a world of evites and emails, nothing sings "special" like a calligraphed wedding suite.</h4></center>
+<br>
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+>I think of each wedding invitation as a piece of art representing your life together. Beautiful calligraphy and illustration makes it feel like you and conveys the poignancy of this milestone to your guests.
 
-consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+Hello! I'm Susannah Fisher, a romantic who loves celebrating life's most poignant moments - weddings, births, housewarmings, and more - with beautiful ephemera. I studied calligraphy with such masters as Suzanne Cunningham and Paul Antonio, and I specialize in modern calligraphy with an organic, Art Nouveau flair. 
 
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd

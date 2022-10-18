@@ -108,6 +108,13 @@ name = "About"
 URL = "about/"
 weight = 50
 
+# Contact
+
+[[menu.main]]
+name = "Contact Me"
+URL = "contact/"
+weight = 60
+
 # footer menu
 
 [[menu.footer]]
@@ -124,6 +131,11 @@ weight = 25
 name = "About"
 URL = "about/"
 weight = 50
+
+[[menu.footer]]
+name = "Contact Me"
+URL = "contact/"
+weight = 60
 
 #################### default parameters ################################
 [params]

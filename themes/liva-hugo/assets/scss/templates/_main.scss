@@ -529,13 +529,16 @@ figcaption {
 
   blockquote {
     padding: 20px;
-    background: $gray;
-    border-left: 3px solid $primary-color;
+    background: $lace;
+    border-left: none;
 
     p {
       margin-bottom: 0;
-      color: $text-color-dark;
+      font-size: 1.25rem;
+      color: $gray;
       font-style: italic !important;
+      padding: 2rem;
+      text-align: center;
     }
   }
 
