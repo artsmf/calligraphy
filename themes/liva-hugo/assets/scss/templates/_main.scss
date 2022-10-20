@@ -10,8 +10,9 @@
   padding: 0;
   vertical-align: middle;
 
-    p {
+    h4 {
       padding-top: 1%;
+      padding-bottom: 1%;
       color: $text-color-light !important;
       font-family: $primary-font;
       font-size: 1em;
@@ -21,12 +22,12 @@
 }
 
 .announcement a { 
-  color: $text-color-dark;
+  color: $text-color-light;
   font-weight: 500; 
 }
 
 .announcement a:hover {
-  color: $text-color-light;
+  color: $text-color-dark;
 }
 
 /* card */

@@ -1,6 +1,6 @@
 ---
-title: "Day of Stationery"
-date: 2022-10-17T14:45:17-04:00
+title: "Fine Art Calligraphy"
+date: 2022-10-20T15:30:00-04:00
 author: "Susannah Fisher"
 draft: true
 
@@ -12,7 +12,8 @@ description: "Susannah Fisher, calligrapher who does custom, handmade work, most
 
 type: "calligraphy"
 ---
-A bit of spot calligraphy on day-of stationery contintues your wedding story and creates a lovely momento for you guests. Services include hand writing in one of three calligraphy styles escort cards, menus, placecards, programs, etc.
+Calligraphy is a unique gift of art. All of our special commissions are unique originals made of professional ink on fine art or handmade paper.
 
 <center><a href="/contact" class="btn btn-outline-primary">Click to inquire</a></center>
+
 

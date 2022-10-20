@@ -1,5 +1,5 @@
 ---
-title: "Sample01"
+title: "Programs"
 date: 2022-10-17T14:55:58-04:00
 author: "Susannah Fisher"
 draft: true
@@ -8,7 +8,7 @@ draft: true
 image: "images/calligraphy/ph01.jpg"
 
 # meta description
-description: "this is meta description"
+description: "Susannah Fisher, calligrapher who does custom, handmade work, mostly for weddings and other events"
 
 type: "calligraphy"
 ---

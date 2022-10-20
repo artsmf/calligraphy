@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://violettebelle.com/"
 languageCode = "en-us"
-title = "Violette Belle Calligraphy and Art"
+title = "Violette Belle Calligraphy"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
@@ -75,31 +75,44 @@ parent = "calligraphy"
 URL = "calligraphy/wedding-suite-calligraphy/"
 weight = 3
 
-# Calligraphy
+[[menu.main]]
+name = "Fine Art Calligraphy"
+parent = "calligraphy"
+URL = "calligraphy/fine-art/"
+weight = 4
+
+# Illustration
+
+# [[menu.main]]
+# identifier = "illustration"
+# name = "Illustration"
+# URL = "/illustration"
+# weight = 2
+
+# [[menu.main]]
+# name = "Wedding Crests"
+# parent = "illustration"
+# URL = "illustration/wedding-crests/"
+# weight = 1
+
+# [[menu.main]]
+# name = "Wedding Maps"
+# parent = "illustration"
+# URL = "illustration/wedding-maps/"
+# weight = 2
+
+# [[menu.main]]
+# name = "Bridal Portraits"
+# parent = "illustration"
+# URL = "illustration/bridal-portraits/"
+# weight = 3
+
+# Blog
 
 [[menu.main]]
-identifier = "illustration"
-name = "Illustration"
-URL = "/illustration"
-weight = 2
-
-[[menu.main]]
-name = "Wedding Crests"
-parent = "illustration"
-URL = "illustration/wedding-crests/"
-weight = 1
-
-[[menu.main]]
-name = "Wedding Maps"
-parent = "illustration"
-URL = "illustration/wedding-maps/"
-weight = 2
-
-[[menu.main]]
-name = "Bridal Portraits"
-parent = "illustration"
-URL = "illustration/bridal-portraits/"
-weight = 3
+name = "Updates"
+URL = "blog/"
+weight = 45
 
 # About
 
@@ -111,7 +124,7 @@ weight = 50
 # Contact
 
 [[menu.main]]
-name = "Contact Me"
+name = "Contact"
 URL = "contact/"
 weight = 60
 
@@ -122,10 +135,10 @@ name = "Calligraphy"
 URL = "calligraphy/"
 weight = 20
 
-[[menu.footer]]
-name = "Illustration"
-URL = "illustration/"
-weight = 25
+# [[menu.footer]]
+# name = "Illustration"
+# URL = "illustration/"
+# weight = 25
 
 [[menu.footer]]
 name = "About"
@@ -133,7 +146,7 @@ URL = "about/"
 weight = 50
 
 [[menu.footer]]
-name = "Contact Me"
+name = "Contact"
 URL = "contact/"
 weight = 60
 
@@ -142,13 +155,13 @@ weight = 60
 logo = ""
 home = "Home"
 # Meta data
-description = "Bespoke romantic wedding calligraphy and illustration by artist and calligrapher Susannah Fisher. "
+description = "Calligraphy by Susannah Fisher, who does custom, handmade work, mostly for weddings and other events."
 author = "Susannah Fisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # Contact Information
 mobile = ""
-email = "info@susannahfisher.art"
+email = "info@violettebelle.com"
 location = ""
 # copyright
 copyright = "&copy; 2022 Susannah Fisher | All Rights Reserved <br> All artwork and images of artwork are the sole property of Susannah Fisher and may not be reproduced or sold for profit without written consent by the artist."
@@ -184,14 +197,9 @@ expire_days = 2
 
 ############################# social site ########################
 [[params.social]]
-title = "pinterest"
-icon = "ti-pinterest" # themify icon : https://themify.me/themify-icons
-link = "https://pinterest.com/smfisherart"
-
-[[params.social]]
-title = "youtube"
-icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
-link = "https://www.youtube.com/channel/UCpIZrghBZk-VmV6OZ6HMcfw"
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
 
 ############################# html used in markdown ########################
 [markup]

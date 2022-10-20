@@ -21,15 +21,15 @@
 
 .btn-primary {
   background: $primary-color;
-  color: $white;
+  color: $lace !important;
   border-color: $primary-color;
 
   &:active,
   &:hover,
   &.focus,
   &.active {
-    background: $primary-color !important;
-    border-color: $primary-color !important;
+    background: $dustyviolet !important;
+    border-color: $dustyviolet !important;
   }
 }
 

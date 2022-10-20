@@ -62,6 +62,14 @@ hr {
 
 /* custom CSS */
 
+a {
+  color: $dustyviolet;
+
+  &hover {
+    color: $text-color-dark;
+  }
+}
+
 /* featured post title */
 .font-weight-bold {
   font-weight: 500 !important;

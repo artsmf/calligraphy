@@ -7,7 +7,7 @@ draft: false
 image: "images/author.png"
 
 # meta description
-description: "this is meta description"
+description: "Susannah Fisher, calligrapher who does custom, handmade work, mostly for weddings and other events"
 
 # type
 type : "about"
@@ -17,5 +17,5 @@ type : "about"
 
 >I think of each wedding invitation as a piece of art representing your life together. Beautiful calligraphy and illustration makes it feel like you and conveys the poignancy of this milestone to your guests.
 
-Hello! I'm Susannah Fisher, a romantic who loves celebrating life's most poignant moments - weddings, births, housewarmings, and more - with beautiful ephemera. I studied calligraphy with such masters as Suzanne Cunningham and Paul Antonio, and I specialize in modern calligraphy with an organic, Art Nouveau flair. 
+Hello! I'm Susannah Fisher, a calligrapher who does custom, handmade work, mostly for weddings and other events. A romantic who loves celebrating life's most poignant moments - weddings, births, housewarmings, and more - with beautiful ephemera, I specialize in modern calligraphy with an organic, Art Nouveau flair. Although some of my calligraphy ends up on the computer because it gets printed, all my work starts as ink on paper.
 

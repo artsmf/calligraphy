@@ -1,11 +1,11 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Place Cards"
+date: 2022-10-20T14:16:06-04:00
 author: "Susannah Fisher"
 draft: true
 
 # post thumb
-image: "images/calligraphy/ph01.jpg"
+image: "images/calligraphy/ph02.jpg"
 
 # meta description
 description: "Susannah Fisher, calligrapher who does custom, handmade work, mostly for weddings and other events"

@@ -1,14 +1,14 @@
 ---
-title: "Sample02"
-date: 2022-10-17T14:57:06-04:00
+title: "Escort Cards"
+date: 2022-10-20T14:14:05-04:00
 author: "Susannah Fisher"
 draft: true
 
 # post thumb
-image: "images/calligraphy/ph01.jpg"
+image: "images/calligraphy/ph02.jpg"
 
 # meta description
-description: "this is meta description"
+description: "Susannah Fisher, calligrapher who does custom, handmade work, mostly for weddings and other events"
 
 type: "calligraphy"
 ---

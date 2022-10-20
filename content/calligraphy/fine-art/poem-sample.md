@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Poem Sample"
+date: 2022-10-20T15:31:11-04:00
 author: "Susannah Fisher"
 draft: true
 

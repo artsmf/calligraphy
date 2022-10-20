@@ -4,10 +4,10 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
-        {{ range .Params.Categories }}
+        <!-- {{ range .Params.Categories }}
         <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
           class="text-primary">{{ . | title | humanize }}</a>
-        {{ end }}
+        {{ end }} -->
         <h2>{{ .Title | markdownify }}</h2>
         <div class="mb-3 post-meta">
           {{ if not .Params.HideDate }}
@@ -36,21 +36,19 @@
       </div>
      </div> 
 
-        <!-- comments -->
-        {{ template "_internal/disqus.html" . }}
 
         <!-- custom CODE ways to make art with me -->
-        <div class="make-art">
+        <!-- <div class="make-art">
           <div class="offers">
             <h2>Make Art With Me</h2>
             <p>
               <ul>
                 <li>Sign up for my newsletter below.</li>
                 <li>Follow me on <a href="https://www.youtube.com/channel/UCpIZrghBZk-VmV6OZ6HMcfw" target="_blank">YouTube</a>.</li>
-                <!-- <li><a href="/patreon">Join me on Patreon</a> for monthly workshops, weekly tip videos, community, and more!</li> -->
+                <li><a href="/patreon">Join me on Patreon</a> for monthly workshops, weekly tip videos, community, and more!</li>
               </ul>
             </p>
-        </div>
+        </div> -->
       </div>
     </div>
 
