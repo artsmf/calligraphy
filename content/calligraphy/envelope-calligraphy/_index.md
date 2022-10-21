@@ -2,7 +2,7 @@
 title: "Envelope Calligraphy"
 date: 2022-10-17T14:45:40-04:00
 author: "Susannah Fisher"
-draft: true
+draft: false
 
 # post thumb
 image: "images/calligraphy/ph01.jpg"
@@ -17,4 +17,4 @@ Calligraphy addressing for wedding invitations, holiday cards, birthday invitati
 
 To request envelope addressing, simply fill out the form below, and I’ll get back to you to confirm availability and provide information on the next steps!
 
-<center><a href="https://portal.violettebelle.com/public/form/view/6350226057dd444c15112131" target="_blank" class="btn btn-outline-primary">Click here to get a quote</a></center>
+<center><a href="https://portal.violettebelle.com/public/form/view/6350226057dd444c15112131" target="_blank" class="btn btn-outline-primary">Click here to get started</a></center>

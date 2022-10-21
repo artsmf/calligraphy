@@ -2,7 +2,7 @@
 title: "Sample01"
 date: 2022-10-17T14:57:40-04:00
 author: "Susannah Fisher"
-draft: true
+draft: false
 
 # post thumb
 image: "images/calligraphy/ph02.jpg"

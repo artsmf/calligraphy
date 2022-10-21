@@ -2,7 +2,7 @@
 title: "Place Cards"
 date: 2022-10-20T14:16:06-04:00
 author: "Susannah Fisher"
-draft: true
+draft: false
 
 # post thumb
 image: "images/calligraphy/ph02.jpg"

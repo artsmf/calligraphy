@@ -2,7 +2,7 @@
 title: "Sample Post3"
 date: 2022-10-20T08:15:07-04:00
 author: "Susannah Fisher"
-draft: true
+draft: false
 
 # post thumb
 image: "images/post/ph01.jpg"

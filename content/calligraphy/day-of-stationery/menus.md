@@ -2,7 +2,7 @@
 title: "Menus"
 date: 2022-10-20T14:17:08-04:00
 author: "Susannah Fisher"
-draft: true
+draft: false
 
 # post thumb
 image: "images/calligraphy/ph02.jpg"

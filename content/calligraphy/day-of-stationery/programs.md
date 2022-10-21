@@ -2,7 +2,7 @@
 title: "Programs"
 date: 2022-10-17T14:55:58-04:00
 author: "Susannah Fisher"
-draft: true
+draft: false
 
 # post thumb
 image: "images/calligraphy/ph01.jpg"
