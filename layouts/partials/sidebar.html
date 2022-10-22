@@ -1,5 +1,11 @@
 <div class="col-lg-4">
   <div class="widgets">
+
+     <!-- booking -->
+     <div class="widget">
+      <a href="/contact/"><img src="{{`images/promotion.png` | absURL}}" alt="Calligraphy commissions accepted for the 2022/2023 season." class="img-fluid"/></a>
+    </div>
+
     <!-- about -->
     <div class="widget">
       {{ with .Site.GetPage "/about" }}
@@ -43,6 +49,7 @@
       {{- end }}
       {{- end }}
     </div> -->
+
     <!-- social -->
     <div class="widget">
       <h4 class="widget-title">Social</h4>
@@ -52,9 +59,5 @@
         {{ end }}
       </ul>
     </div>
-    <!-- advertisement -->
-    <!-- <div class="widget">
-      <a href="/patreon/"><img src="{{`images/promotion.png` | absURL}}" alt="Join me on Patreon for tutorials and more!" class="img-fluid"/></a>
-    </div> -->
   </div>
 </div>

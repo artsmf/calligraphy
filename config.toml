@@ -114,12 +114,19 @@ name = "Updates"
 URL = "blog/"
 weight = 45
 
+# FAQs
+
+[[menu.main]]
+name = "FAQ"
+URL = "faq/"
+weight = 50
+
 # About
 
 [[menu.main]]
 name = "About"
 URL = "about/"
-weight = 50
+weight = 55
 
 # Contact
 
@@ -145,6 +152,11 @@ weight = 20
 # name = "Illustration"
 # URL = "illustration/"
 # weight = 25
+
+[[menu.footer]]
+name = "FAQ"
+URL = "faq/"
+weight = 40
 
 [[menu.footer]]
 name = "About"
