@@ -24,7 +24,7 @@
 }
 
 .navbar-nav {
-  padding-left: 15%;  /* CUSTOM */
+  padding-left: 10%;  /* CUSTOM */
 }
 
 .move-lft {
@@ -34,6 +34,8 @@
 /* custom CSS logo & favicon */
 .navbar-brand {
   color: $text-color-dark;
+  font-family: $title-font;
+  font-size: 2.25rem;
 }
 
 .navbar-brand .img-fluid {
