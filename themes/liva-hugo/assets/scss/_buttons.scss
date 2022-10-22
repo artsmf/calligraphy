@@ -35,15 +35,15 @@
 
 .btn-outline-primary {
   background: transparent;
-  color: $primary-color;
-  border-color: $primary-color;
+  color: $primary-color !important;
+  border-color: $primary-color !important;
 
   &:active,
   &:hover,
   &.focus,
   &.active {
-    background: $primary-color !important;
-    border-color: $primary-color !important;
-    color: $white;
+    background: $dustyviolet !important;
+    border-color: $dustyviolet !important;
+    color: $lace !important;
   }
 }
