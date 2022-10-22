@@ -1,6 +1,6 @@
 ---
-title: "Sample Post2"
-date: 2022-10-20T08:09:43-04:00
+title: "Zhuzh Up The Holidays With Sparkling Gold Ink And Some Creative Calligraphy"
+date: 2022-11-04T00:09:43-04:00
 author: "Susannah Fisher"
 draft: false
 
@@ -8,12 +8,11 @@ draft: false
 image: "images/post/ph02.jpg"
 
 # meta description
-description: "this is meta description"
+description: "Violette Belle Calligraphy offers calligraphy services for personal stationery, weddings, and other life events."
 
 # taxonomies
 categories:
   - "Calligraphy"
-  - "Illustration"
   
 tags:
   - ""

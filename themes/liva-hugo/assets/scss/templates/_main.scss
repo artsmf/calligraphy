@@ -7,12 +7,14 @@
   background: $dustyviolet;
 
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   vertical-align: middle;
 
+    h5 {
+      font-weight: 500;
+    }
+
     h4 {
-      padding-top: 1%;
-      padding-bottom: 1%;
       color: $text-color-light !important;
       font-family: $primary-font;
       font-size: 1em;

@@ -8,7 +8,7 @@ draft: true
 image: "images/workshops/placeholder.jpeg"
 
 # meta description
-description: "this is meta description"
+description: "Violette Belle Calligraphy offers calligraphy services for personal stationery, weddings, and other life events."
 
 type: "illustration"
 ---

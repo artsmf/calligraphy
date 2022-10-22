@@ -1,6 +1,6 @@
 ---
-title: "Sample Post3"
-date: 2022-10-20T08:15:07-04:00
+title: "Why I Love To Write Letters - Literally - And How I Became A Calligrapher"
+date: 2022-10-28T00:15:07-04:00
 author: "Susannah Fisher"
 draft: false
 
@@ -8,12 +8,11 @@ draft: false
 image: "images/post/ph01.jpg"
 
 # meta description
-description: "this is meta description"
+description: "Violette Belle Calligraphy offers calligraphy services for personal stationery, weddings, and other life events."
 
 # taxonomies
 categories:
   - "Calligraphy"
-  - "Illustration"
   
 tags:
   - ""

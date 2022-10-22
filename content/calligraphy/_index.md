@@ -8,7 +8,7 @@ draft: false
 image: "images/projects/placeholder.jpeg"
 
 # meta description
-description: "Susannah Fisher, calligrapher who does custom, handmade work, mostly for weddings and other events"
+description: "Violette Belle Calligraphy offers calligraphy services for personal stationery, weddings, and other life events."
 
 type: "calligraphy"
 ---
