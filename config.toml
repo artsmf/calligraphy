@@ -114,19 +114,31 @@ name = "Updates"
 URL = "blog/"
 weight = 45
 
-# FAQs
-
-[[menu.main]]
-name = "FAQ"
-URL = "faq/"
-weight = 50
-
 # About
 
 [[menu.main]]
+identifier = "about"
 name = "About"
 URL = "about/"
-weight = 55
+weight = 50
+
+[[menu.main]]
+name = "About The Calligrapher"
+parent = "about"
+URL = "about/about-the-calligrapher/"
+weight = 1
+
+[[menu.main]]
+name = "Process and Pricing"
+parent = "about"
+URL = "about/process/"
+weight = 2
+
+[[menu.main]]
+name = "Fine Art Website"
+parent = "about"
+URL = "https://susannahfisher.art"
+weight = 50
 
 # Contact
 
@@ -154,14 +166,9 @@ weight = 20
 # weight = 25
 
 [[menu.footer]]
-name = "FAQ"
-URL = "faq/"
+name = "Process & Policies"
+URL = "process/"
 weight = 40
-
-[[menu.footer]]
-name = "About"
-URL = "about/"
-weight = 50
 
 [[menu.footer]]
 name = "Contact"
@@ -222,7 +229,7 @@ expire_days = 2
 [[params.social]]
 title = "instagram"
 icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.instagram.com/violettebellecalligraphy/"
 
 ############################# html used in markdown ########################
 [markup]

@@ -48,7 +48,10 @@
     ga('send', 'pageview');
   </script> -->
 
-{{ "<!-- Flodesk -->" | safeHTML }}
+<!-- Masonry Grid-->
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+{{ "<!-- Flodesk popups and forms -->" | safeHTML }}
 <script>
   (function(w, d, t, h, s, n) {
     w.FlodeskObject = n;
@@ -70,9 +73,9 @@
     f.parentNode.insertBefore(sn, f);
   })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
 </script>
-
-<!-- Masonry Grid-->
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-
-
+<script>
+  window.fd('form', {
+    formId: '6358214c12249eb974a4376d'
+  });
+</script>
 </head>
