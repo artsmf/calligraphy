@@ -12,7 +12,7 @@ description: "Violette Belle Calligraphy offers calligraphy services for persona
 
 type: "calligraphy"
 ---
-Calligraphy is a unique gift of art. All of our special commissions are unique originals made of professional ink on fine art or handmade paper.
+Calligraphy is a unique gift of art. All of our special commissions are unique originals made of professional, archival ink on fine art or handmade paper.
 
 <center><a href="https://portal.violettebelle.com/public/form/view/6355785538764f5e7e21ede1"  target="_blank" class="btn btn-outline-primary">Click to commission a fine art piece</a></center>
 

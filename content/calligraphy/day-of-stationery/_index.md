@@ -12,7 +12,7 @@ description: "Violette Belle Calligraphy offers calligraphy services for persona
 
 type: "calligraphy"
 ---
-A bit of spot calligraphy on day-of stationery contintues your wedding story and creates a lovely momento for you guests. Services include hand writing in one of three calligraphy styles escort cards, menus, placecards, programs, etc.
+A bit of spot calligraphy on day-of stationery contintues your wedding story and creates a lovely momento for your guests. Services include hand writing in one of three calligraphy styles escort cards, menus, placecards, programs, etc.
 
 <center><a href="/contact" class="btn btn-outline-primary">Click to inquire</a></center>
 

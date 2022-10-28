@@ -2,7 +2,7 @@
 title: "Fa La La La La! Let's Celebrate With Holiday Calligraphy - Bookings Are Now Open!"
 date: 2022-11-01T00:09:25-04:00
 author: "Susannah Fisher"
-draft: false
+draft: true
 
 # post thumb
 image: "images/post/ph02.jpg"

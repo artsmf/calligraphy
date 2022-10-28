@@ -2,7 +2,7 @@
 title: "Zhuzh Up The Holidays With Sparkling Gold Ink And Some Creative Calligraphy"
 date: 2022-11-04T00:09:43-04:00
 author: "Susannah Fisher"
-draft: false
+draft: true
 
 # post thumb
 image: "images/post/ph02.jpg"

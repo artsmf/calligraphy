@@ -13,7 +13,7 @@ description: "Violette Belle Calligraphy offers calligraphy services for persona
 type: "calligraphy"
 ---
 
-Calligraphy addressing for wedding invitations, holiday cards, birthday invitation, or any invitation that calls for an extra special introduction! You can chose from three styles best match the tone of your event!
+A beautifully addressed envelope gives your guests an experience when opening their invitations. It’s not just about pulling cards out of an envelope, but a true unboxing moment that gives guests the very first impression of your wedding day.
 
 To request envelope addressing, simply fill out the form below, and I’ll get back to you to confirm availability and provide information on the next steps!
 
