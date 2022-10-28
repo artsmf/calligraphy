@@ -117,26 +117,26 @@ weight = 45
 # About
 
 [[menu.main]]
-identifier = "about"
-name = "About"
-URL = "/about"
+identifier = "info"
+name = "Info"
+URL = "/info"
 weight = 50
 
 [[menu.main]]
 name = "About The Calligrapher"
-parent = "about"
-URL = "about/about-the-calligrapher/"
+parent = "info"
+URL = "info/about-the-calligrapher/"
 weight = 1
 
 [[menu.main]]
 name = "Process and Pricing"
-parent = "about"
-URL = "about/process/"
+parent = "info"
+URL = "info/process/"
 weight = 2
 
 [[menu.main]]
 name = "Fine Art Website"
-parent = "about"
+parent = "info"
 URL = "https://susannahfisher.art"
 weight = 50
 
@@ -167,7 +167,7 @@ weight = 20
 
 [[menu.footer]]
 name = "Process & Policies"
-URL = "process/"
+URL = "info/process/"
 weight = 40
 
 [[menu.footer]]
