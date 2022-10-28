@@ -1,7 +1,7 @@
 ---
 title: "Process & Policies"
 date: 2022-10-22T09:16:44-04:00
-draft: true
+draft: false
 
 # post thumb
 image: "images/calligraphy/ph01.jpg"
