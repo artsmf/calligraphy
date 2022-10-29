@@ -1,5 +1,5 @@
 ---
-title: "Illustration"
+title: "Wedding & Event Illustration"
 date: 2022-10-17T11:50:40-04:00
 author: "Susannah Fisher"
 draft: true
@@ -13,6 +13,7 @@ description: "Violette Belle Calligraphy offers calligraphy services for persona
 type: "illustration"
 ---
 
-TK
+Hand painted illustrations to reflect those details that make your love story one of a kind and turn your invitations into works of art.
 
----
+<center><em>Made by hand and then digitized for your stationer to reproduce.</em></center>
+

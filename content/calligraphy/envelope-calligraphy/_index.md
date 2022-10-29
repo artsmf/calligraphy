@@ -17,4 +17,4 @@ A beautifully addressed envelope gives your guests an experience when opening th
 
 To request envelope addressing, simply fill out the form below, and I’ll get back to you to confirm availability and provide information on the next steps!
 
-<center><a href="https://portal.violettebelle.com/public/form/view/6350226057dd444c15112131" target="_blank" class="btn btn-outline-primary">Click here to get started</a></center>
+<center><a href="/contact" class="btn btn-outline-primary">Click to inquire</a></center>

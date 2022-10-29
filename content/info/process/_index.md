@@ -17,4 +17,4 @@ TK
 ### Add questions here
 Add answers here
 
-<center><a href="https://view.flodesk.com/pages/63592b247412509a374f3159" class="btn btn-outline-primary">Request Current Price Sheet</a></center>
+<center><a href="https://view.flodesk.com/pages/63592b247412509a374f3159" class="btn btn-outline-primary" target="_blank">Request Current Price Sheet</a></center>
