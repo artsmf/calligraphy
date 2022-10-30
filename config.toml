@@ -135,6 +135,12 @@ URL = "info/process/"
 weight = 2
 
 [[menu.main]]
+name = "Calligraphy Styles"
+parent = "info"
+URL = "info/styles/"
+weight = 3
+
+[[menu.main]]
 name = "Fine Art Website"
 parent = "info"
 URL = "https://susannahfisher.art"
@@ -164,11 +170,6 @@ weight = 20
 # name = "Illustration"
 # URL = "illustration/"
 # weight = 25
-
-[[menu.footer]]
-name = "Process & Policies"
-URL = "info/process/"
-weight = 40
 
 [[menu.footer]]
 name = "Contact"
