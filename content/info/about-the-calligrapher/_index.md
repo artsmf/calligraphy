@@ -6,6 +6,9 @@ draft: false
 # image
 image: "images/author.png"
 
+#alt-text
+alt_text:  "photograph of calligrapher susannah fisher"
+
 # meta description
 description: "Violette Belle Calligraphy offers calligraphy services for personal stationery, weddings, and other life events."
 

@@ -27,7 +27,7 @@
           <div class="col-md-4 mb-4">
             <article class="card">
               {{ if .Params.Image }}
-              <a href="{{ .Permalink }}"><img src="{{ .Params.Image | absURL }}" class="card-img-top fp-card" alt="{{ .Title | markdownify }}"></a>
+              <a href="{{ .Permalink }}"><img src="{{ .Params.Image | absURL }}" alt="{{ .Params.alt_text }}" class="card-img-top fp-card" alt="{{ .Title | markdownify }}"></a>
               {{ end }}
             </article>
           </div>
