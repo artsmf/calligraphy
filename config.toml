@@ -228,9 +228,15 @@ expire_days = 2
 
 ############################# social site ########################
 [[params.social]]
-title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "https://www.instagram.com/violettebellecalligraphy/"
+title = "pinterest"
+icon = "ti-pinterest" # themify icon : https://themify.me/themify-icons
+link = "https://www.pinterest.com/violettebellecalligraphy/"
+
+#[[params.social]]
+#title = "instagram"
+#icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+#link = "https://www.instagram.com/violettebellecalligraphy/"
+
 
 ############################# html used in markdown ########################
 [markup]
